@@ -3,8 +3,8 @@ from ultralytics import YOLO
 from PIL import Image
 import numpy as np
 
-st.set_page_config(page_title="YOLOv8 Detection", layout="wide")
-st.title("💡 YOLOv8 Custom Object Detection")
+st.set_page_config(page_title="Bike and Motor Bike Detection", layout="wide")
+st.title("🛵 Two-Wheeler Vehicle Detection using YOLOv8")
 
 # Load model from Hugging Face (or local if available)
 model = YOLO("https://huggingface.co/azeemaslam/yolov8-best/resolve/main/best.pt")
