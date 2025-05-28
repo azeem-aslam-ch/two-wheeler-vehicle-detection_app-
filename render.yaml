@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: yolo-web-app
+    env: python
+    buildCommand: "pip install -r requirements.txt"
+    startCommand: "streamlit run app.py --server.port=8000 --server.enableCORS=false"
+    plan: free
