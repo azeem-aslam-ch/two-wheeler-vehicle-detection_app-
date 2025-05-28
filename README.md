@@ -26,3 +26,18 @@ streamlit run app.py
 
 ## 📸 Demo Screenshot
 ![Demo](banner.png)
+
+
+## 🛵 Two-Wheeler Detection App
+
+🚗 Detect motorcycles, scooters, and bikes in images or webcam captures using a custom-trained YOLOv8 model.
+
+- Built with **YOLOv8** by Ultralytics
+- Interactive frontend using **Streamlit**
+- Hosted live on [Hugging Face Spaces](https://huggingface.co/spaces/azeemaslam/vehicle-detector)
+
+[![View on Hugging Face](https://img.shields.io/badge/Live_App-HuggingFace-blue?logo=huggingface&style=for-the-badge)](https://huggingface.co/spaces/azeemaslam/vehicle-detector)
+[![GitHub Repo](https://img.shields.io/badge/View_Code-GitHub-black?logo=github&style=for-the-badge)](https://github.com/azeemaslam/yolov8-two-wheeler-detector)
+
+![demo](https://raw.githubusercontent.com/azeemaslam/yolov8-two-wheeler-detector/main/banner.png)
+
