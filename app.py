@@ -7,7 +7,7 @@ st.set_page_config(page_title="YOLOv8 Detection", layout="wide")
 st.title("🧠 YOLOv8 Custom Object Detection")
 
 # Load model from a hosted URL (e.g. Google Drive direct link or Hugging Face)
-model = YOLO("model = YOLO("https://huggingface.co/azeemaslam/yolov8-best/resolve/main/best.pt")
+model = YOLO("https://huggingface.co/azeemaslam/yolov8-best/resolve/main/best.pt")
 
 uploaded_file = st.file_uploader("📷 Upload an image", type=["jpg", "jpeg", "png"])
 
