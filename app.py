@@ -6,8 +6,9 @@ import numpy as np
 st.set_page_config(page_title="YOLOv8 Detection", layout="wide")
 st.title("🧠 YOLOv8 Custom Object Detection")
 
-# Load your custom model
-model = YOLO("best.pt")
+# Load model from a hosted URL (e.g. Google Drive direct link or Hugging Face)
+model = YOLO("https://drive.google.com/uc?export=download&id=17m3mVk6lDotr5l8dgY87exlW93WraxFh")
+
 
 uploaded_file = st.file_uploader("📷 Upload an image", type=["jpg", "jpeg", "png"])
 
