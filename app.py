@@ -16,7 +16,10 @@ if uploaded_file is not None:
     st.image(image, caption='Uploaded Image', use_column_width=True)
 
     if st.button("🔍 Detect Objects"):
+    with st.spinner("Running detection... please wait ⏳"):
         img_array = np.array(image)
         results = model(img_array)
         res_plotted = results[0].plot()
-        st.image(res_plotted, caption='Detection Result', use_column_width=True)
+    st.success("Detection complete ✅")
+    st.image(res_plotted, caption='Detection Result', use_column_width=True)
+
